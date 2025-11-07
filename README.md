@@ -167,8 +167,11 @@ Created AWS QuickSight dashboards for analytics
 🧩 Credits
 
 👨‍💻 Project created by Sameer
-📚 Guided by AWS learning roadmap (Day 51–54)
+
+
 🧠 Tools: AWS Console, Ubuntu (WSL), Airflow, QuickSight
+
+
 Outcome
 
 🎯 Complete AWS ETL & BI Pipeline
