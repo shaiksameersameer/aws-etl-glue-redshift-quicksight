@@ -1,7 +1,11 @@
 AWS Sales Analytics ETL Project
-👤 Author: Sameer (sam)
+
+👤 Author: Sameer 
+
 📅 Date: November 2025
+
 🧠 Goal: Build an end-to-end ETL + Analytics Pipeline using S3 → Glue → Redshift → QuickSight
+
 🧩 Project Overview
 
 This project demonstrates how to design, automate, and visualize a complete data analytics workflow on AWS.
@@ -43,29 +47,43 @@ Build an interactive dashboard in Amazon QuickSight
 Visualize KPIs like sales trends, top products, and region performance
 
 ⚙️ Technologies Used
-AWS Service	Purpose
-S3	Store raw CSV data (fact_sales_sample.csv)
-Glue	ETL job and schema discovery
-Redshift	Data warehouse
-QuickSight	Visualization & BI Dashboard
-IAM	Role-based access & permissions
-Airflow (Optional)	Job orchestration
-🧮 Data Source
 
+AWS Service   Purpose
+S3          	Store raw CSV data (fact_sales_sample.csv) 
+
+Glue	        ETL job and schema discovery 
+
+Redshift	Data warehouse
+
+QuickSight	Visualization & BI Dashboard
+
+IAM	Role-based access & permissions
+
+Airflow (Optional)	Job orchestration
+
+🧮 Data Source
 S3 Bucket:
 s3://my-glue-input-bucket-sameer123/fact_sales_sample.csv
 
 Sample Data Columns:
 
-Column Name	Description
-sale_id	Unique Sale ID
-date_id	Transaction Date
+Column Name	 Description
+sale_id	        Unique Sale ID 
+
+date_id 	Transaction Date
+
 customer_id	Customer Identifier
+
 product_id	Product Identifier
+
 region_id	Region of Sale
+
 quantity	Units Sold
+
 unit_price	Price per Unit
+
 total_amount	Calculated (quantity * unit_price)
+
 🔧 ETL Steps
 Step 1 — AWS S3
 
