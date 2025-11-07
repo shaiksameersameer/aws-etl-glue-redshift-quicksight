@@ -106,8 +106,16 @@ Visual	Description
 💰 KPI Metric	Total Revenue + Growth %
 📉 Bar Chart	Average Price by Product
 
-Screenshots Folder
-quicksight_dashboard.png
+Below are real screenshots captured from my AWS ETL pipeline and QuickSight dashboard.
+
+#
+(screenshots/Screenshot1.png)
+
+
+(screenshots/Screenshot2.png)
+
+
+(screenshots/Screenshot3.png)
 
 Folder Structure
 aws-etl-project/
