@@ -106,16 +106,35 @@ Visual	Description
 💰 KPI Metric	Total Revenue + Growth %
 📉 Bar Chart	Average Price by Product
 
-Below are real screenshots captured from my AWS ETL pipeline and QuickSight dashboard.
+---
 
-#
-(screenshots/Screenshot1.png)
+## 🖼️ Project Screenshots
 
+Below are real screenshots captured from my AWS ETL pipeline and Amazon QuickSight dashboard.
 
-(screenshots/Screenshot2.png)
+---
 
+### 🔹 Step 1 — AWS QuickSight Dashboard Overview  
+<p align="center">
+  <img src="screenshots/quicksight_dashboard.png" alt="QuickSight Dashboard Overview" width="800">
+</p>
 
-(screenshots/Screenshot3.png)
+---
+
+### 🔹 Step 2 — Sales Visualization 1  
+<p align="center">
+  <img src="screenshots/quicksight_visual1.png" alt="QuickSight Sales Visual 1" width="800">
+</p>
+
+---
+
+### 🔹 Step 3 — Sales Visualization 2  
+<p align="center">
+  <img src="screenshots/quicksight_visual2.png" alt="QuickSight Sales Visual 2" width="800">
+</p>
+
+---
+
 
 Folder Structure
 aws-etl-project/
