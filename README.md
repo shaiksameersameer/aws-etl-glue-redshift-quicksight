@@ -59,7 +59,7 @@ QuickSight	Visualization & BI Dashboard
 
 IAM	Role-based access & permissions
 
-Airflow (Optional)	Job orchestration
+Airflow 	Job orchestration
 
 🧮 Data Source
 S3 Bucket:
@@ -105,7 +105,8 @@ Loaded data using SQL:
 
 COPY fact_sales
 FROM 's3://my-glue-input-bucket-sameer123/fact_sales_sample.csv'
-IAM_ROLE 'arn:aws:iam::969385807464:role/AmazonRedshift-CommandsAccessRole-20251105T105944'
+IAM_ROLE '<your-redshift-iam-role>'
+
 CSV IGNOREHEADER 1;
 
 Step 4 — QuickSight
