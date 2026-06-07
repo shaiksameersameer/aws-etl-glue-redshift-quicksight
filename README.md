@@ -2,7 +2,7 @@ AWS Sales Analytics ETL Project
 
 👤 Author: Sameer 
 
-📅 Date: November 2025
+
 
 🧠 Goal: Build an end-to-end ETL + Analytics Pipeline using S3 → Glue → Redshift → QuickSight
 
